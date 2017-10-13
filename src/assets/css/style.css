@@ -24,7 +24,6 @@ hr {
 
 .name {
   font-family: 'Berkshire Swash', cursive;
-  /*font-family: 'Kaushan Script', cursive;*/
 }
 
 .job-title {
@@ -90,8 +89,16 @@ hr {
     height: 60px;
   }
   .name {
-    /*font-size: 28px;*/
     font-size: 1.75rem;
+  }
+  .job-title {
+    font-size: 1.0rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .name {
+    font-size: 1.5rem;
   }
   .job-title {
     font-size: 1.0rem;
