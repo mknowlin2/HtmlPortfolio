@@ -8,16 +8,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Berkshire+Swash|Kaushan+Script">
-
-    <!-- JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
-            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
-            crossorigin="anonymous"></script>
-    <script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
-    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
-    <!-- FontAwesome -->
-    <script src="https://use.fontawesome.com/afc45895d5.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CBerkshire+Swash">
 
     <title>Knowlin Portfolio</title>
   </head>
@@ -34,105 +25,121 @@
       </div>
       <hr>
     </header>
-    <main class="main container">
+    <main class="container">
       <div id="jumbotron" class="jumbotron">
         <div class="row">
           <div id="jumbo_col" class="col-sm-4" >
           </div>
         </div>
       </div>
-      <section id="projects">
-        <h2>Featured Work</h2>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="text-center">
-              <img class="img-fluid rounded"
-                   src="./assets/img/python.png" alt="Python project image">
-              <h3>ud036_StarterCode</h3>
-              <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
-                <a data-toggle="modal"
-                   data-target="#pythonProjModal">ud036_StarterCode</a></p>
+      <div class="row">
+        <div class="col">
+          <section id="projects">
+            <h2>Featured Work</h2>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="text-center">
+                  <img class="img-fluid rounded"
+                       src="./assets/img/python.png" alt="Python project image">
+                  <h3>ud036_StarterCode</h3>
+                  <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
+                    <a data-toggle="modal"
+                       data-target="#pythonProjModal">ud036_StarterCode</a></p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="text-center">
+                  <img class="img-fluid rounded" src="./assets/img/kanji520x.jpg"
+                       alt="Kanji520 project 1 image">
+                  <h3>Kanji520 project 1</h3>
+                  <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
+                    <a class="clickable" data-toggle="modal"
+                       data-target="#kanjiModal">Kanji520 proj1</a></p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="text-center">
+                  <img class="img-fluid rounded" src="./assets/img/kanji520.png"
+                       alt="Kanji520 project 2 card image">
+                  <h3>Kanji520 project 2</h3>
+                  <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
+                    <a class="clickable" data-toggle="modal"
+                       data-target="#kanjiModal2">Kanji520 proj2</a></p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="text-center">
-              <img class="img-fluid rounded" src="./assets/img/kanji520x.jpg"
-                   alt="Kanji520 project 1 image">
-              <h3>Kanji520 project 1</h3>
-              <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
-                <a class="clickable" data-toggle="modal"
-                   data-target="#kanjiModal">Kanji520 proj1</a></p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="text-center">
-              <img class="img-fluid rounded" src="./assets/img/kanji520.png"
-                   alt="Kanji520 project 2 card image">
-              <h3>Kanji520 project 2</h3>
-              <p><i class="fa fa-github" aria-hidden="true"></i> GitHub project:
-                <a class="clickable" data-toggle="modal"
-                   data-target="#kanjiModal2">Kanji520 proj2</a></p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="modal fade" id="pythonProjModal" tabindex="-1" role="dialog"
-           aria-labelledby="pythonProjModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"
-                      aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 class="modal-title" id="pythonProjModalLabel">
-                <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
-            </div>
-            <div class="modal-body">
-              <p>https://github.com/mknowlin2/ud036_StarterCode</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="kanjiModal" tabindex="-1" role="dialog"
-           aria-labelledby="kanjiModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"
-                      aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 class="modal-title" id="kanjiModalLabel">
-                <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
-            </div>
-            <div class="modal-body">
-              <p>https://github.com/mknowlin2/kanji520_proj1</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="kanjiModal2" tabindex="-1" role="dialog"
-           aria-labelledby="kanjiModalLabel2" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal"
-                      aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-              <h4 class="modal-title" id="kanjiModalLabel2">
-                <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
-            </div>
-            <div class="modal-body">
-              <p>https://github.com/mknowlin2/kanji520_proj2</p>
-            </div>
-          </div>
+          </section>
         </div>
       </div>
     </main>
+    <div class="modal fade" id="pythonProjModal" tabindex="-1" role="dialog"
+         aria-labelledby="pythonProjModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="pythonProjModalLabel">
+              <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
+          </div>
+          <div class="modal-body">
+            <p>https://github.com/mknowlin2/ud036_StarterCode</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="kanjiModal" tabindex="-1" role="dialog"
+         aria-labelledby="kanjiModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="kanjiModalLabel">
+              <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
+          </div>
+          <div class="modal-body">
+            <p>https://github.com/mknowlin2/kanji520_proj1</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="kanjiModal2" tabindex="-1" role="dialog"
+         aria-labelledby="kanjiModalLabel2" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="kanjiModalLabel2">
+              <i class="fa fa-github" aria-hidden="true"></i> GitHub project url:</h4>
+          </div>
+          <div class="modal-body">
+            <p>https://github.com/mknowlin2/kanji520_proj2</p>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer container">
-      <sub>Copyright &copy; 2017 by Michael A. Knowlin II</sub>
+      <div class="row">
+        <div class="col">
+          <sub>Copyright &copy; 2017 by Michael A. Knowlin II</sub>
+        </div>
+      </div>
     </footer>
+    <!-- JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+            integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+            crossorigin="anonymous"></script>
+    <script src="./assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome -->
+    <script src="https://use.fontawesome.com/afc45895d5.js"></script>
   </body>
 </html>

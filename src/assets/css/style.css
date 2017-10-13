@@ -4,36 +4,31 @@ body {
 
 hr {
   width: 100%;
-  border-top: 2px solid #000000 !important;
+  border-top: 2px solid #000 !important;
 }
 
 .logo {
   width: 20%;
-  background-color: white;
+  background: #fff;
 }
 
 .banner {
   width: 80%;
   text-align: right;
-  background-color: white;
-}
-
-.main {
-  padding: 10px;
+  background: #fff;
 }
 
 .name {
-  font-family: 'Berkshire Swash', cursive;
+  font-family: "Berkshire Swash", cursive;
 }
 
 .job-title {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 .jumbotron {
   position: relative;
-  background-color: #000;
-  background-image: url("../img/eggOnCouch.jpg");
+  background: #000 url(../img/eggOnCouch.jpg);
   background-position: center center;
   background-size: cover;
   width: 100%;
@@ -51,7 +46,7 @@ hr {
 }
 
 .text-center a {
-  color: blue !important;
+  color: #00f !important;
   text-decoration: underline !important;
 }
 
@@ -69,11 +64,11 @@ hr {
 }
 
 #projects h1 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 #projects h2 {
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
 }
 
 #projects img {
@@ -85,12 +80,15 @@ hr {
     height: 100px;
     width: 100px;
   }
+
   #logo {
     height: 60px;
   }
+
   .name {
     font-size: 1.75rem;
   }
+  
   .job-title {
     font-size: 1.0rem;
   }
@@ -100,6 +98,7 @@ hr {
   .name {
     font-size: 1.5rem;
   }
+
   .job-title {
     font-size: 1.0rem;
   }
@@ -109,6 +108,7 @@ hr {
   .name {
     font-size: 2.25rem;
   }
+
   .job-title {
     font-size: 1.25rem;
   }
